@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.secondsection {
+    background-color: #EF5B5B;
+    border-radius: 20px 20px 0px 0px;
+    color: white;
+    font-family: Adobe Arabic; 
+    
+}
+
+
+
+.innercontent{  
+    padding: 43px 12px;
+    padding-left: 54px;
+}
+
+.innercontent h5{  
+    padding: 43px 12px;
+    padding-left: 54px;
+}
+
+.btn{
+    margin-top: 23px;
+    border-radius: 19px;
+    padding: 6px 34px;
+    font-size: 1.25rem;
+}
+
+.bg {
+    z-index: -1;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+/* common attributes */
+
+.primary-color{
+    color: #EF5B5B;
+}
