@@ -39,9 +39,6 @@
 /* ****************************************************** */
 
 /* corausel section*/
-.primary-color{
-    color: #EF5B5B;
-  }
 
 
   #login {
@@ -97,39 +94,67 @@
 /* ************************************************************ */
 /* userpage css */
 /* search bar */
-
-#search {
-    background-image: url('../img/search.png');
-    background-size:contain;
-    background-repeat: no-repeat;
-    text-indent: 30px;
-    border-radius: 23px;
-    border: none;
-    background-color: #F9F9F9;
-    /* max-width: 80%; */
+#uppertext{
+  margin-top: 3%;
 }
 
 
-/*  menu bar*/
-.bar1{
-    width: 35px;
-    height: 5px;
-    background-color: #EF5B5B;
-    margin: 6px 0;
-    transition: 0.4s;
-  }
-.bar2{
-    width: 25px;
-    height: 5px;
-    background-color: #EF5B5B;
-    margin: 6px 0;
-    transition: 0.4s;
-    
+#search{
+  text-indent: 30px;
+  border-radius: 23px;
+  border: none;
+  background-color: #F9F9F9;
+  width: 75%;
+  margin-right: 12px;
+  
+}
 
-  }
+.bar1 {
+  width: 35px;
+  height: 5px;
+  background-color: #EF5B5B;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.bar2 {
+  width: 25px;
+  height: 5px;
+  background-color: #EF5B5B;
+  margin: 6px 0;
+  transition: 0.4s;
 
 
+}
+/* Card section */
 
+.card-btn{
+  width: 30%;
+  border-radius: 23px;
+  background-color: white;
+  position: relative;
+  left: 67%;
+  bottom: 170px;
+
+}
+
+/* navigation */
+
+#navbar{
+position: fixed;
+bottom: 0;
+width: 100%;
+left: 0;
+}
+
+.navbarelement{
+  margin: 5px 25px;
+}
+
+.nabarelement img{
+  width: 60%;
+  margin: 0 auto;
+}
 
 
 

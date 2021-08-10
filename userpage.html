@@ -15,39 +15,102 @@
 
 
     <link rel="stylesheet" href="css/style.css">
+    
 
 </head>
+<style>
+   
+</style>
+
 
 <body>
-    <div class="container-fluid">
-        <div class="text-muted">
+    <div class="container">
+        <p class="text-muted" id="uppertext">
             Delivering to
 
-        </div>
-        <div><b>Current Location <i class="fa fa-angle-down"></i></b>
-        </div>
+        </p>
+        <p><b>Current Location <i class="fa fa-angle-down"></i></b>
+        </p>
 
-            <div class="row">
-                <!-- <div class="col-md-12 col-sm-6 col-lg-12 col-xl-12 col-xxl-12"> -->
+        <div class="row searchbar">
+            <button class="btn"><i class="fa fa-search"></i></button>
+                <input type="text" id="search" name="search" Placeholder="&nbsp; Search">
 
+           
 
-
-                    <input type="text" id="search" name="search" Placeholder="&nbsp; Search">
-
-                    <div class="bar1 primary-color"></div>
-                    <div class="bar2 primary-color"></div>
-                <!-- </div> -->
-
-                <!-- <div class="col-md-12 col sm-12 col-lg-12 col-xl-12 col-xxl-12"> -->
+            <div class="bar">
 
 
-                <!-- </div> -->
-
+                <div class="bar1 primary-color"></div>
+                <div class="bar2 primary-color"></div>
             </div>
+         
+        </div>
+
+        <div class="card mb-3">
+            <img class="card-img-top" src="img/cardimg.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title"><b>Hollywood Starz Cafe</b></h5>
+              <span class="primary-color"><i class="fa fa-star"></i>&nbsp;4.9</span><span class="card-text"><small class="text-muted">&nbsp;&nbsp;Last updated 3 mins ago</small></span>
+            </div>
+            <button class="btn btn-light card-btn">20-30mins</button>
+        </div>
+        <div class="card mb-3">
+            <img class="card-img-top" src="img/cardimg.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title"><b>Hollywood Starz Cafe</b></h5>
+              <span class="primary-color"><i class="fa fa-star"></i>&nbsp;4.9</span><span class="card-text"><small class="text-muted">&nbsp;&nbsp;Last updated 3 mins ago</small></span>
+            </div>
+            <button class="btn btn-light card-btn">20-30mins</button>
+        </div>
+        <div class="card mb-3">
+            <img class="card-img-top" src="img/cardimg.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title"><b>Hollywood Starz Cafe</b></h5>
+              <span class="primary-color"><i class="fa fa-star"></i>&nbsp;4.9</span><span class="card-text"><small class="text-muted">&nbsp;&nbsp;Last updated 3 mins ago</small></span>
+            </div>
+            <button class="btn btn-light card-btn">20-30mins</button>
+        </div>
+
+
+        <nav class="navbar navbar-light bg-light" id="navbar">
+          
+              <a class="navbar-brand" href="#">
+                  <div class="row"> 
+
+                    <div class="navbarelement">
+                        
+                        <img src="img/Icon-home.png" alt="">
+                        <div> Restaurant</div>
+                    </div>	
+
+                    <div class="navbarelement">
+                        
+                        <img src="img/Icon-offer.png" alt="">
+                        <div> Offer</div>
+                    </div>	
+
+                    <div class="navbarelement">
+                        
+                        <img src="img/Icon-account.png" alt="">
+                        <div> Account</div>
+                    </div>	
+
+                
+                    </div>
+              </a>
+            
+          </nav>
+
+
+        
+  
+
+ 
 
 
     </div>
-    </div>
+    
 
 
 
@@ -66,6 +129,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
