@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 /* landing page */
@@ -92,7 +93,7 @@
 
 
 /* ************************************************************ */
-/* userpage css */
+/* home-01 css */
 /* search bar */
 #uppertext{
   margin-top: 3%;
@@ -126,6 +127,11 @@
 
 
 }
+
+/* horizontal sliders */
+#h-slider{
+  margin: 23px 0px;
+}
 /* Card section */
 
 .card-btn{
@@ -145,15 +151,28 @@ position: fixed;
 bottom: 0;
 width: 100%;
 left: 0;
+background-color: gray;
 }
 
 .navbarelement{
-  margin: 5px 25px;
+  padding: 0px 23px;
 }
 
-.nabarelement img{
-  width: 60%;
-  margin: 0 auto;
+/* home-02 page */
+.searchbar{
+  margin-top: 12px;
+}
+
+.home-02-heading{
+  margin-top: 7%;
+  font-size: 23px;
+  }
+
+.home-02-btn{
+  position: absolute;
+  top: 10%;
+  right: 5%; 
+
 }
 
 
